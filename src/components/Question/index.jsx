@@ -19,7 +19,7 @@ export default function Question({ data: { question } }) {
           )}
           <h4>
             {currentCategory.name !== undefined
-              ? `Question : ${currentCategory.name}`
+              ? `${currentCategory.name}`
               : "Welcome !"}
           </h4>
         </div>

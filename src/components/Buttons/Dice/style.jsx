@@ -20,9 +20,7 @@ export default styled.div`
       return `url(/images/dice${props.dice}.svg) no-repeat`;
     }};
     background-size: contain;
-    border: none;
     cursor: pointer;
-    outline: none;
     display: inline-block;
     animation: wiggle 1.5s infinite;
 
@@ -34,10 +32,10 @@ export default styled.div`
         transform: rotate(0deg);
       }
       85% {
-        transform: rotate(5deg);
+        transform: rotate(10deg);
       }
       95% {
-        transform: rotate(-5deg);
+        transform: rotate(-10deg);
       }
       100% {
         transform: rotate(0deg);
