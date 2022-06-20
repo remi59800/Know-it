@@ -5,7 +5,7 @@ import Style from "./style";
 
 export default function Question({ data: { question } }) {
   const { currentCategory } = useContext(context);
-  const image = `../../../public/images/arrow-${currentCategory.color}.svg`;
+  const image = `/images/arrow-${currentCategory.color}.svg`;
   return (
     <Style>
       <section>
