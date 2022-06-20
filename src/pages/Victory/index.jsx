@@ -1,8 +1,8 @@
 import { useContext } from "react";
+import banner from "../../../public/images/banner.png";
 import Replay from "../../components/Links/Replay";
 import SVictory from "./style";
-import pawn from "../../assets/pictures/pawn.svg";
-import banner from "../../assets/pictures/banner.png";
+import pawn from "../../../public/images/pawn.svg";
 import context from "../../context/Ctx";
 
 export default function victory() {

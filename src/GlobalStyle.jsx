@@ -24,7 +24,7 @@ body{
   background-color: var(--back-color);
   width: 100vw;
   height: 100vh;
-  background-image: url("../src/assets/pictures/background-image.svg") ;
+  background-image: url("../public/images/background-image.svg") ;
   background-size: 100%;
   }
   p,

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Regles from "../../../assets/pictures/rules.svg";
+import Regles from "../../../../public/images/rules.svg";
 import SRules from "./style";
 
 function Rules() {

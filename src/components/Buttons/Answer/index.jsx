@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import { useState, useEffect, useContext } from "react";
 import Style from "./style";
-import right from "../../../assets/pictures/right.svg";
-import wrong from "../../../assets/pictures/wrong.svg";
+import right from "../../../../public/images/right.svg";
+import wrong from "../../../../public/images/wrong.svg";
 import context from "../../../context/Ctx";
 
 export default function Answer({ data: { correctAnswer, incorrectAnswers } }) {

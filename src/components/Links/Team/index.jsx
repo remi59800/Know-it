@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import STeam from "./style";
-import team from "../../../assets/pictures/team.svg";
+import team from "../../../../public/images/team.svg";
 
 function Team() {
   return (

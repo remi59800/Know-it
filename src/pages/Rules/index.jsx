@@ -1,7 +1,7 @@
 import SRules from "./style";
 
 export default function Rules() {
-  const image = `./src/assets/pictures/rulesCard.svg`;
+  const image = `../../../public/images/rulesCard.svg`;
   return (
     <SRules>
       <h3 className="title">Rules</h3>

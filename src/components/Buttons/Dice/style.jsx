@@ -17,7 +17,7 @@ export default styled.div`
     border: none;
     margin: 0px;
     background: ${(props) => {
-      return `url(../src/assets/pictures/dice${props.dice}.svg) no-repeat`;
+      return `url(../../../../public/images/dice${props.dice}.svg) no-repeat`;
     }};
     background-size: contain;
     border: none;
