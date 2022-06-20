@@ -15,6 +15,8 @@ export default styled.section`
   h1 {
     text-align: center;
     margin-bottom: 8vh;
+    margin-left: 15%;
+    margin-right: 15%;
     font-family: var(--font-family-baseline);
     font-weight: bold;
     color: var(--main-color);

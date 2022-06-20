@@ -52,8 +52,14 @@ export default function Game() {
         <div className="dice">
           <Dice setStats={setStats} />
         </div>
-        {play.incorrectAnswers && <Answer data={play} />}
-        <Pawn className="pawn" />
+        <div className="answerPawnContainer">
+          <div className="answersContainer">
+            {play.incorrectAnswers && <Answer data={play} />}
+          </div>
+          <div className="pawn">
+            <Pawn />
+          </div>
+        </div>
       </section>
     </Style>
   );

@@ -6,7 +6,9 @@ export default styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 27vh;
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
   }
 
   .smileyWrong,
@@ -18,8 +20,8 @@ export default styled.div`
 
   .answer {
     border-radius: 10px;
-    width: 40vh;
-    height: 5vh;
+    width: 90%;
+    height: 100%;
     background-color: var(--white-color);
     display: flex;
     text-align: center;
@@ -35,10 +37,14 @@ export default styled.div`
     }
   }
 
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 500px) {
     .answer {
+      border-radius: 8px;
       font-size: 1rem;
       line-height: 1rem;
+      height: 100%;
+      padding-top: 0.4rem;
+      padding-bottom: 0.4rem;
     }
     .answers {
       justify-content: flex-start;
@@ -86,5 +92,10 @@ export default styled.div`
 
   .wrong {
     opacity: ${(props) => props.finished && "0.6"};
+  }
+  @media screen and (min-width: 700px) {
+    .answer {
+      width: 350px;
+    }
   }
 `;

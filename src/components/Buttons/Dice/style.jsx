@@ -3,13 +3,7 @@ import styled from "styled-components";
 export default styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 7vh;
-
-  @media screen and (max-width: 700px) {
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-  }
+  margin-top: 1vh;
 
   button {
     width: 8vh;
@@ -41,5 +35,10 @@ export default styled.div`
         transform: rotate(0deg);
       }
     }
+  }
+  @media screen and (min-width: 700px) {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
   }
 `;

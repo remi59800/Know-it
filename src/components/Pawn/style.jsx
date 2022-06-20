@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export default styled.div`
   .pawn {
-    width: 18vh;
+    width: 20vw;
     aspect-ratio: 1/1;
   }
   .yellow {
@@ -41,5 +41,22 @@ export default styled.div`
     bottom: 0;
     position: absolute;
     background-size: contain;
+  }
+  @media screen and (min-width: 500px) {
+    .pawn {
+      width: 14vw;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .pawn {
+      width: 12vw;
+    }
+  }
+  @media screen and (min-width: 700px) {
+    .pawn {
+      min-width: 100px;
+      max-width: 130px;
+      aspect-ratio: none;
+    }
   }
 `;
