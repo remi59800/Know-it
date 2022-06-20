@@ -7,30 +7,30 @@ export default styled.div`
   }
   .yellow {
     z-index: 1;
-    background: url("../../../public/images/pawn-yellow.svg") no-repeat;
+    background: url("/images/pawn-yellow.svg") no-repeat;
   }
   .pink {
     z-index: 1;
-    background: url("../../../public/images/pawn-pink.svg") no-repeat;
+    background: url("/images/pawn-pink.svg") no-repeat;
   }
   .orange {
     z-index: 1;
-    background: url("../../../public/images/pawn-orange.svg") no-repeat;
+    background: url("/images/pawn-orange.svg") no-repeat;
   }
   .purple {
     z-index: 1;
-    background: url("../../../public/images/pawn-purple.svg") no-repeat;
+    background: url("/images/pawn-purple.svg") no-repeat;
   }
   .green {
     z-index: 1;
-    background: url("../../../public/images/pawn-green.svg") no-repeat;
+    background: url("/images/pawn-green.svg") no-repeat;
   }
   .blue {
     z-index: 1;
-    background: url("../../../public/images/pawn-blue.svg") no-repeat;
+    background: url("/images/pawn-blue.svg") no-repeat;
   }
   .empty {
-    background: url("../../../public/images/pawn-empty.svg") no-repeat;
+    background: url("/images/pawn-empty.svg") no-repeat;
   }
   .sameClass {
     width: 100%;
