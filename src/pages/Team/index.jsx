@@ -1,7 +1,7 @@
 import Style from "./style";
 
-const linkedinImg = `../../../public/images/linkedin-icon.svg`;
-const githubImg = `../../../public/images/github-icon.svg`;
+const linkedinImg = `/images/linkedin-icon.svg`;
+const githubImg = `/images/github-icon.svg`;
 
 export default function Team() {
   const contacts = [
