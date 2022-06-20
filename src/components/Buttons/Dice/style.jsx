@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export default styled.div`
-    display: flex;
-    justify-content: center;
-    margin-top: 7vh;
-
-  @media screen and (max-width: 700px) {
   display: flex;
   justify-content: center;
-  margin-top: 0;
-}
+  margin-top: 7vh;
+
+  @media screen and (max-width: 700px) {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
 
   button {
     width: 8vh;
@@ -26,11 +26,22 @@ export default styled.div`
     display: inline-block;
     animation: wiggle 1.5s infinite;
 
-  @keyframes wiggle {
-    0% { transform: rotate(0deg); }
-    80% { transform: rotate(0deg); }
-    85% { transform: rotate(5deg); }
-    95% { transform: rotate(-5deg); }
-    100% { transform: rotate(0deg); }
+    @keyframes wiggle {
+      0% {
+        transform: rotate(0deg);
+      }
+      80% {
+        transform: rotate(0deg);
+      }
+      85% {
+        transform: rotate(5deg);
+      }
+      95% {
+        transform: rotate(-5deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
   }
 `;
