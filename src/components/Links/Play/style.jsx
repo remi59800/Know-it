@@ -9,12 +9,12 @@ export default styled.div`
     width: 40vh;
     height: 40vh;
     text-align: center;
-    background-image: url("../../../../public/images/play-button.svg");
+    background-image: url("/images/play-button.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     &:hover {
-      background-image: url("../../../../public/images/play-button-hover.svg");
+      background-image: url("/images/play-button-hover.svg");
       background-size: contain;
       width: 40vw;
       height: 40vh;
