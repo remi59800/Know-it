@@ -50,23 +50,25 @@ export default styled.section`
 
   @media screen and (min-width: 700px) {
     section {
-      max-width: 600px;
-      display: grid;
-      grid-template-rows: 50px 250px;
+      width: 600px;
+      height: 270px;
+      display: flex;
+      flex-direction: column;
     }
     .title {
-      font-size: 2rem;
-      padding-left: 2vw;
+      font-size: 1.5rem;
+      padding-left: 3.2vw;
+      height: 50px;
       padding-bottom: 0;
     }
     .rules-container {
-      max-width: 600px;
-      display: grid;
-      grid-template-columns: 420px 180px;
-      grid-template-rows: 220px;
+      width: 600px;
+      height: 220px;
+      display: flex;
     }
     .rules {
       width: 420px;
+      height: 200px;
       font-size: 1.2rem;
       border-radius: 0 0 0 10px;
     }
@@ -74,16 +76,14 @@ export default styled.section`
       margin: 0;
       padding-top: 2rem;
     }
-    .rules-container {
-    }
-    .img-container {
-      padding-top: 0;
-      min-height: 206px;
+    .imgContainer {
+      height: 220px;
     }
     img {
       border-radius: 0 0 10px;
       width: 180px;
-      background-color: white;
+      min-height: 200px;
+      max-height: 200px;
     }
   }
 `;
