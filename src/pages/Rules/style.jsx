@@ -74,7 +74,7 @@ export default styled.section`
     }
     p {
       margin: 0;
-      padding-top: 2rem;
+      padding-top: 1.5rem;
     }
     .imgContainer {
       height: 220px;

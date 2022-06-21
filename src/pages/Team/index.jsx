@@ -39,10 +39,12 @@ export default function Team() {
   return (
     <Style>
       <div className="team">
-        <h3 className="title">Team</h3>
-        <ul>
+        <div className="title-container">
+          <h3>Development Team</h3>
+        </div>
+        <div className="contact-container">
           {contacts.map((contact) => (
-            <li className="contact" key={contact.name}>
+            <div className="contact" key={contact.name}>
               <h2>{contact.name}</h2>
               <div className="links">
                 <a
@@ -62,9 +64,9 @@ export default function Team() {
                   <img className="icon" src={githubImg} alt="github-icon" />
                 </a>
               </div>
-            </li>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </Style>
   );

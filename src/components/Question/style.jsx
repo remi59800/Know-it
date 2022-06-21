@@ -66,18 +66,20 @@ export default styled.div`
       font-size: 1rem;
     }
     section {
-    width: 60vw;
+      width: 60vw;
     }
-    @media screen and (min-width: 800px) {
+  }
+  @media screen and (min-width: 800px) {
     h4 {
       font-size: 1rem;
     }
     section {
-    width: 50vw;
+      width: 50vw;
     }
-    @media screen and (min-width: 900px) {
-      section {
-    width: 440px;
+  }
+  @media screen and (min-width: 900px) {
+    section {
+      width: 440px;
     }
   }
 `;

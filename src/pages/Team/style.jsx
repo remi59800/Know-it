@@ -2,82 +2,86 @@ import styled from "styled-components";
 
 export default styled.div`
   .team {
+    width: 80vw;
     border-radius: 10px;
     background-color: var(--white-opacity);
     font-family: var(--font-family);
-    font-size: 0.65rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
-  ul {
-    height: 55vh;
-    display: flex;
-    justify-content: center;
-  }
-  .contact {
-    color: var(--main-color);
-  }
-  .links {
-    padding-top: 1vh;
-    display: flex;
-    justify-content: space-between;
-  }
-  .icon {
-    aspect-ratio: 1/1;
-  }
-  .title {
+  .title-container {
     border-radius: 10px 10px 0 0;
     background-color: var(--main-color);
     color: var(--white-color);
     font-family: var(--font-family);
-    font-size: 1.3rem;
     height: 7vh;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding-left: 5vw;
   }
-  @media screen and (max-width: 700px) {
+  h3 {
+    font-size: 1.3rem;
+  }
+  .contact-container {
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.6rem;
+  }
+  .contact {
+    color: var(--main-color);
+    text-align: center;
+  }
+  .links {
+    padding: 1vh;
+  }
+  .icon {
+    width: 5vw;
+    padding-left: 0.3rem;
+  }
+  @media screen and (min-width: 400px) {
     .team {
-      width: 90vw;
+      width: 62vw;
     }
-    h2 {
-      width: 100%;
-    }
-    ul {
-      flex-direction: column;
-      padding-top: 1vh;
-    }
-    .contact {
-      width: 90vw;
-      text-align: center;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 1vh;
-    }
-    .links {
-      width: 20vw;
+  }
+  @media screen and (min-width: 500px) {
+    .team {
+      width: 50vw;
     }
     .icon {
-      width: 7vw;
+      width: 3vw;
+      padding-left: 0.3rem;
     }
   }
   @media screen and (min-width: 700px) {
     .team {
-      width: 60vw;
-      font-size: 1.3rem;
-    }
-    ul {
-      flex-wrap: wrap;
-      padding-top: 5vh;
-    }
-    .contact {
-      width: 25vw;
-    }
-    .links {
-      width: 6vw;
+      width: 50vw;
     }
     .icon {
-      width: 2.5vw;
+      width: 3vw;
+      padding-left: 0.3rem;
+    }
+    .contact-container {
+      box-sizing: border-box;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      font-size: 0.6rem;
+      position: relative;
+    }
+    .contact {
+      display: flex;
+      align-items: center;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .team {
+      width: 45vw;
     }
   }
 `;

@@ -11,8 +11,9 @@ export default function Rules() {
         <div className="rules-container">
           <div className="rules">
             <p>
-              Roll the dice to get started, then choose the correct answer. You
-              win the game when you correctly answer to one question of each
+              Roll the dice to get started, then choose the correct answer. If
+              you roll 1-2, easy question, 3-4: medium, 5-6: difficult. You win
+              the game when you correctly answer to one question of each
               category.
             </p>
             <p> Good Luck, Have Fun !</p>
