@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export default styled.div`
+  header {
+    z-index:9;
+  }
   main {
     height: 76vh;
     display: flex;

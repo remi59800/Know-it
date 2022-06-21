@@ -9,13 +9,12 @@ export default styled.section`
   .answer {
     margin-top: 1vh;
     position: relative;
-    bottom: 35px;
+    bottom: 2rem;
   }
   .pawn {
     margin: auto;
     width: 18vw;
     position: relative;
-    bottom: 2.3vh;
   }
 
   @media screen and (min-width: 500px) {
@@ -50,6 +49,34 @@ export default styled.section`
       position: absolute;
       top: 94%;
       left: 90%;
+    }
+  }
+  @media screen and (min-width: 700px) {
+    .pawn {
+      position: absolute;
+      top: 62%;
+      left: 74%;
+    }
+  }
+  @media screen and (min-width: 850px) {
+    .pawn {
+      position: absolute;
+      top: 62%;
+      left: 70%;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .pawn {
+      position: absolute;
+      top: 62%;
+      left: 65%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .pawn {
+      position: absolute;
+      top: 62%;
+      left: 63%;
     }
   }
 `;

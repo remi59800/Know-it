@@ -30,6 +30,7 @@ export default styled.header`
     }
     .hamburger {
       display: none;
+      z-index: 900;
     }
   }
 `;

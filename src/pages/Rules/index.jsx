@@ -4,19 +4,24 @@ export default function Rules() {
   const image = `/images/rulesCard.svg`;
   return (
     <SRules>
-      <h3 className="title">Rules</h3>
-      <div>
-        <div className="rules">
-          <ul>
-            <li>Roll the dice to get started,</li>
-            <li>then choose the correct answer.</li>
-            <li>You win the game when you correctly</li>
-            <li>answer to one question of each category.</li>
-          </ul>
-          <p> Good Luck, Have Fun ! :)</p>
+      <section>
+        <div className="title-container">
+          <h3 className="title">Rules</h3>
         </div>
-        <img src={image} alt="categories-explaination" />
-      </div>
+        <div className="rules-container">
+          <div className="rules">
+            <p>
+              Roll the dice to get started, then choose the correct answer. You
+              win the game when you correctly answer to one question of each
+              category.
+            </p>
+            <p> Good Luck, Have Fun !</p>
+          </div>
+          <div className="imgContainer">
+            <img src={image} alt="categories-explaination" />
+          </div>
+        </div>
+      </section>
     </SRules>
   );
 }

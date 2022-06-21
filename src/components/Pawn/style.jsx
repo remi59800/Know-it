@@ -55,7 +55,7 @@ export default styled.div`
   @media screen and (min-width: 700px) {
     .pawn {
       min-width: 100px;
-      max-width: 130px;
+      max-width: 115px;
       aspect-ratio: none;
     }
   }
