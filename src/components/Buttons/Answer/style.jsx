@@ -9,6 +9,7 @@ export default styled.div`
     height: 100%;
     width: 100%;
     margin-top: 1rem;
+    text-decoration: none;
   }
 
   .smileyWrong,
@@ -29,6 +30,7 @@ export default styled.div`
     justify-content: center;
     font-size: 0.9rem;
     font-family: var(--font-family);
+    text-decoration: none;
 
     &:hover {
       font-weight: bold;
