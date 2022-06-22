@@ -22,7 +22,7 @@ export default function Team() {
     },
     {
       name: "François Salmon",
-      github: "https://github.com/Ashram939",
+      github: "https://github.com/FrancoisSalmon",
       linkedin: "https://www.linkedin.com/in/fran%C3%A7ois-salmon-16610b234/",
     },
     {
