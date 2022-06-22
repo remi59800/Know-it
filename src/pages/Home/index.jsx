@@ -6,7 +6,8 @@ export default function Home() {
     <Style>
       <section>
         <h1>
-          Want to test your general knowledge? Do it right now with Know It!
+          Want to test your general knowledge? <br />
+          Do it right now with Know It!
         </h1>
         <div>
           <Play />

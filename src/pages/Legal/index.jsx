@@ -10,8 +10,16 @@ export default function Legal() {
           School between February 2022 and July 2022.
           <br />
           <br />
-          API used for question generation: https://opentdb.com/api_config.php.
+          API used for question generation:{" "}
+          <a
+            href="https://opentdb.com/api_config.php"
+            target="_blank"
+            rel="noreferrer"
+          >
+            opentdb.com
+          </a>
         </h5>
+
         <a
           href="https://www.wildcodeschool.com/fr-FR/formations/formation-developpeur-web"
           target="_blank"

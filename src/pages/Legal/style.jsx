@@ -24,4 +24,13 @@ export default styled.div`
       max-width: 280px;
     }
   }
+  @media screen and (max-width: 400px) {
+    div {
+      margin-bottom: 3rem;
+    }
+    h5 {
+      line-height: 2rem;
+      font-size: 1.1rem;
+    }
+  }
 `;
